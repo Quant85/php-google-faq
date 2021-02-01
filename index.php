@@ -42,7 +42,7 @@ require è identico a include, tranne che in caso di errore produrrà anche un e
         <ul class="items">
         <?php 
           foreach ($nav['items'] as $key => $item) {?>
-            <li class="item"><a href=""><?php echo ucfirst($item); ?></a></li>
+            <li class="item"><a class="<?php if ($item == "domande frequenti") echo 'active'; ?>" href=""><?php echo ucfirst($item); ?></a></li>
             <?php } ?>              
           </ul>
       </div>

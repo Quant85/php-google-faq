@@ -31,6 +31,10 @@ nav{
       list-style: none;
       display: flex;  
       li {
+        a.active {
+          color: $hover-link-color;
+          border-bottom: 2px solid $hover-link-color;
+        }
         a {
           display: inline-block;
           height: 100%;
@@ -40,7 +44,6 @@ nav{
           font-size: 16px;
           font-weight: 400;
           line-height: 1.43;
-          border-bottom: 2px solid transparent;
           padding-bottom: 6px;
           margin-right: 42px;
           
