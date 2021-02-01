@@ -1,0 +1,31 @@
+{
+  "name": "php-google-faq",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000h\u0000p\u0000-\u0000g\u0000o\u0000o\u0000g\u0000l\u0000e\u0000-\u0000f\u0000a\u0000q\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quant85/php-google-faq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quant85/php-google-faq/issues"
+  },
+  "homepage": "https://github.com/Quant85/php-google-faq#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.11",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.5",
+    "sass-loader": "^8.0.2"
+  }
+}

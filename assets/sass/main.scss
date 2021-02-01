@@ -1,0 +1,32 @@
+main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  div.faqs{
+    width: 978px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    padding: 32px;
+    margin-top: 70px;
+    h2{
+      color: #3c4043;
+      font-family: $primary-font;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      padding-top: 64px ;
+    }
+    p{
+      letter-spacing: .2px;
+      line-height: 24px;
+      padding-top: 20px;
+    }
+    a{
+      color: $link-color;
+      text-decoration: none;
+    }
+  }
+
+}

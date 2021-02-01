@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main div.faqs {
+  width: 978px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  padding: 32px;
+  margin-top: 70px;
+}
+main div.faqs h2 {
+  color: #3c4043;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 64px;
+}
+main div.faqs p {
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+main div.faqs a {
+  color: #3367d6;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  min-height: 70px;
+  background-color: white;
+  padding-left: 38px;
+  border-bottom: 2px solid #b8b8b8;
+}
+nav .nav-top {
+  display: flex;
+  min-height: 56px;
+  padding: 8px;
+  align-items: center;
+}
+nav .nav-top img {
+  height: 24px;
+  width: 74px;
+  vertical-align: middle;
+}
+nav .nav-top span {
+  padding-left: 4px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  padding-left: 8px;
+  vertical-align: middle;
+}
+nav .nav-bottom ul {
+  list-style: none;
+  display: flex;
+}
+nav .nav-bottom ul lia:last-of-type {
+  color: #1159f5;
+  border-bottom: 2px solid #1159f5;
+}
+nav .nav-bottom ul li a {
+  display: inline-block;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.43;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 6px;
+  margin-right: 42px;
+}
+nav .nav-bottom ul li:hover a {
+  color: #1159f5;
+  border-bottom: 2px solid #1159f5;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.54;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+}
